@@ -1,0 +1,126 @@
+ # PracticaGif
+
+ esta practica sirve para conocer los comandos basicos del maquetado bajo el estandar MARKDOWN (.md) que 
+nos servira para crear la documentacion de nuestros proyectos de software durante nuestra formacion profesional
+
+ ## 1.- Titulos (HEADERS)
+ 
+ si para la documentaciondeseamos ubicar secciones de algun tema o contenido podremos utilizar estos elementos para poner 
+textos resaltados como encabezados. estos son muy similares a las etiquetas \<h1> ... \<h6> en html
+
+ **Ejemplo**
+
+ # Titulo principal (nivel 1)
+ ## Subtitulo de nivel 2
+ ### Subtitulo de nivel 3
+ #### Subtitulo de nivel 4
+ ##### Subtitulo de nivel 5
+ ###### Subtitulo de nivel 6
+ ####### el estandar solo te permite hasta 6 posibles titulos, a partir del septimo omitira la intruccion de maquetado
+
+ ## 2. Separadores (SEPARATORS)
+ Esta instruccion coloca una linea vertical entre las secciones del documento permitido organizar y distribuir mejor el
+contenido, y puede ser maquetado utilizando 3 quiones medios (-) continuos despues del parrafo deseado
+ 
+ **Ejemplo**
+
+ Titulo de seccion
+ parrafo 1 parrafo 1 parrafo 1 parrafo 1 parrafo 1 parrafo 1 parrafo 1 parrafo 1  
+
+
+ ## 3. Parrafos (PARA
+ Son utilizados para presentar texto descriptivo de la documentacion de los proyectos, en el cual podremos utilizar la
+propiedad de "align" de html para poder controlar la alineacion del texto
+
+ **Ejemplo**
+
+ parrafo 1 en caso de no definir la alineacion estara por defecto a la iaquierda parrafo 1 en caso de no definir la 
+alineacion estara por defecto a la iaquierda parrafo 1 en caso de no definir la alineacion estara por defecto a la iaquierda
+parrafo 1 en caso de no definir la alineacion estara por defecto a la iaquierdaparrafo 1 en caso de no definir la alineacion 
+estara por defecto a la iaquierda
+
+<p align="right"> Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right Parrafo 2 al 
+utilizar la etiqueta p y la propiedad de alineacion align con el valor right Parrafo 2 al utilizar la etiqueta p y la 
+propiedad de alineacion align con el valor right Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con 
+el valor right Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right <\p>
+
+<p align="center"> Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado 
+Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara 
+centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado <\p>
+
+<p align="justify"> Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizada
+parrafo 4 justificado Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizada 
+parrafo 4 justificado Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizada
+parrafo 4 justificado Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizada
+parrafo 4 justificado Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizada
+parrafo 4  justificado <\p>
+ ## 4.Texto enfatizado (BOLD, ITALIC, Y UNDERLINE)
+ Tambien es posible resaltar algunas palabras importantes utilizando la estilizacion de **Letras Negritas**, para la que
+colocaremos dos * antes y despues de la palabra a resaltar *letras cursivas* solo un *, ***Letra cursivas y negratas***
+solo tres * y texto subrayado  entre la etiqueta \<ins> y la de cierre \</ins>
+ ## 5. Cuadores de codigo o reseñas (BLOCKQUOTES)
+ este elemento son para resaltar instrucciones especificas para la instalacion, configuracion y/o 
+inicializadores del proyecto, para mostrar secciones del codigo fuente, y se maqueta usando el simblolo mayor que
+(>) antes del texto
+**Ejemplo**
+ para listar las carpetas y archivos desde una terminal de comandos en el sistema operativo de windows debemos usar el
+comando:
+ > C:/dir
+ Despues oprimimos la tecla "Enter"
+ Tambien podemos poner texto multilinea
+ **Ejemplo**
+ pasos para instalar MySQL
+ > - Descargar el archivo instalador desde la pagina www.mysql.com
+ > - Instalar el motor de base de datos
+ > - definir el puerto y contraseña para el usuario **root**
+ > - inicializar el servicio de base de datos
+ > - conectarnos a la base de datos para verificar que se instalo correctamente
+## 6. Listas ordenadas y no ordenadas
+ si en nuestra documentacion necesitamos incluir informacion en modo de lista, es decir un elemento, tras otro podremos
+hacerlo utilizando las listas ya sea usando viñetas o numeracion definida
+ para el uso de viñetas solo se necesita agregar un (-) antes del texto
+ **Ejemplo**
+ mi tipo de musica favorita es:
+ - rock
+ - corridos
+ - pop
+ - electrica
+ para enlistar elementos en orden numerico slo basta con anteponer un numero con (.) antes del texto
+ **Ejemplo**
+para crear un nuevo repositorio en "GITHUB" DEBO:
+
+ 1. crear unba cuenta con Github
+ 2. logearme con mi cuenta de Github
+ 3. ir a la pagina princ. de mi perfil (home)
+ 6. en el menu lateral buscar el boton que dice **Nuevo Repositorio**
+ 7. asignarle un nombre 
+ 50. definir si el prouect es:
+   - **Publico:** cualquier persona podra ver y consultar el contenido de mi proyecto 
+   - **Privado:** solo aquella persona que yo autorice podran visualizar y modificar el contenido de mi proyecto 
+ 1. agregar un primer archivo documantal *README:md*
+ 1. agregar la creacion del repositorio
+ ## 7. Ligas e Hipervinculos (LINKS)
+ utilizadas para redirigir archivos, secciones dentro o fuera de nuestro repositorio. se maquetan utilizando 
+corchetes \[ \], inmediatamente de parentesis con la url destino \( \)
+6 **Ejemplo**
+ mi buscador favorito es: [google],(https://www.google.com)
+ esta documentacion fue creada por: ***M.T.I Marco Antonio***
+ <marco.ramirezutxicotepec.edu.mx> 
+ ## 8. Tablas (TABLES)
+ si la documentacion lo requiere podemos presentar info. en formato de tablas con filas y columnas, para 
+maquetarlas podemos utilizar el caracter | para delificar las columnas y - para delimitar las filoas
+
+ **Ejemplo**
+
+ -------------------------------------------------------------
+ | Encabezado 1 | Encabezado 2 | Encabezado 3 | Encabezado 4 |
+ |--------------|--------------|--------------|--------------|
+ |Flia 1 celda 1|Flia 1 celda 2|Flia 1 celda 3|Flia 1 celda 4|
+ |Flia 2 celda 1|Flia 2 celda 2|Flia 2 celda 3|Flia 2 celda 4|
+ |Flia 3 celda 1|Flia 3 celda 2|Flia 3 celda 3|Flia 3 celda 4|
+
+125 ## 9. Imagenes (IMAGES)
+126
+127 Para la visualizacion de imagenes debemos caragr los archivos en nuestro repositorio y vincularlo
+128 //para eso se da click en (+) en el proyecto, le das cargar archivo y lo buscas (la imagen debe estar en una carpeta)
+129 el link de la imganen desde github ej: ![Lugia](https://github.com/MIT-MarcoRH/PracticaGit/blob/main/imagenes/lugia.png)
